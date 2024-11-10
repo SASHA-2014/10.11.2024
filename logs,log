@@ -1,0 +1,90 @@
+DEBUG:root:debug
+INFO:root:info
+WARNING:root:warning
+ERROR:root:error
+CRITICAL:root:critical
+DEBUG:root:debug2
+INFO:root:info2
+WARNING:root:warning2
+ERROR:root:error2
+CRITICAL:root:critical2
+We have next logging message:2024-11-10 09:52:37,308:DEBUG - debug2
+We have next logging message:2024-11-10 09:52:37,308:INFO - info2
+We have next logging message:2024-11-10 09:52:37,308:WARNING - warning2
+We have next logging message:2024-11-10 09:52:37,308:ERROR - error2
+We have next logging message:2024-11-10 09:52:37,308:CRITICAL - critical2
+We have next logging message:2024-11-10 09:53:14,089:DEBUG - debug2
+We have next logging message:2024-11-10 09:53:14,089:INFO - info2
+We have next logging message:2024-11-10 09:53:14,089:WARNING - warning2
+We have next logging message:2024-11-10 09:53:14,089:ERROR - error2
+We have next logging message:2024-11-10 09:53:14,090:CRITICAL - critical2
+We have next logging message:2024-11-10 09:58:59,530:DEBUG - debug2
+We have next logging message:2024-11-10 09:58:59,530:INFO - info2
+We have next logging message:2024-11-10 09:58:59,530:WARNING - warning2
+We have next logging message:2024-11-10 09:58:59,530:ERROR - error2
+We have next logging message:2024-11-10 09:58:59,530:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:09,257:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:09,257:INFO - info2
+We have next logging message:2024-11-10 09:59:09,257:WARNING - warning2
+We have next logging message:2024-11-10 09:59:09,257:ERROR - error2
+We have next logging message:2024-11-10 09:59:09,258:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:09,537:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:09,537:INFO - info2
+We have next logging message:2024-11-10 09:59:09,537:WARNING - warning2
+We have next logging message:2024-11-10 09:59:09,538:ERROR - error2
+We have next logging message:2024-11-10 09:59:09,538:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:09,766:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:09,766:INFO - info2
+We have next logging message:2024-11-10 09:59:09,767:WARNING - warning2
+We have next logging message:2024-11-10 09:59:09,767:ERROR - error2
+We have next logging message:2024-11-10 09:59:09,767:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:10,196:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:10,196:INFO - info2
+We have next logging message:2024-11-10 09:59:10,196:WARNING - warning2
+We have next logging message:2024-11-10 09:59:10,196:ERROR - error2
+We have next logging message:2024-11-10 09:59:10,196:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:10,429:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:10,429:INFO - info2
+We have next logging message:2024-11-10 09:59:10,429:WARNING - warning2
+We have next logging message:2024-11-10 09:59:10,429:ERROR - error2
+We have next logging message:2024-11-10 09:59:10,429:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:10,868:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:10,868:INFO - info2
+We have next logging message:2024-11-10 09:59:10,868:WARNING - warning2
+We have next logging message:2024-11-10 09:59:10,869:ERROR - error2
+We have next logging message:2024-11-10 09:59:10,869:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:11,196:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:11,196:INFO - info2
+We have next logging message:2024-11-10 09:59:11,196:WARNING - warning2
+We have next logging message:2024-11-10 09:59:11,196:ERROR - error2
+We have next logging message:2024-11-10 09:59:11,196:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:21,290:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:21,290:INFO - info2
+We have next logging message:2024-11-10 09:59:21,290:WARNING - warning2
+We have next logging message:2024-11-10 09:59:21,290:ERROR - error2
+We have next logging message:2024-11-10 09:59:21,290:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:29,518:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:29,519:INFO - info2
+We have next logging message:2024-11-10 09:59:29,519:WARNING - warning2
+We have next logging message:2024-11-10 09:59:29,519:ERROR - error2
+We have next logging message:2024-11-10 09:59:29,519:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:41,236:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:41,236:INFO - info2
+We have next logging message:2024-11-10 09:59:41,236:WARNING - warning2
+We have next logging message:2024-11-10 09:59:41,236:ERROR - error2
+We have next logging message:2024-11-10 09:59:41,236:CRITICAL - critical2
+We have next logging message:2024-11-10 09:59:53,554:DEBUG - debug2
+We have next logging message:2024-11-10 09:59:53,555:INFO - info2
+We have next logging message:2024-11-10 09:59:53,555:WARNING - warning2
+We have next logging message:2024-11-10 09:59:53,555:ERROR - error2
+We have next logging message:2024-11-10 09:59:53,555:CRITICAL - critical2
+We have next logging message:2024-11-10 10:03:50,184:ERROR - Exception
+Traceback (most recent call last):
+  File "C:\Users\PS21\PycharmProjects\pythonProject\10.11.2024.py", line 17, in <module>
+    print(10/0)
+ZeroDivisionError: division by zero
+We have next logging message:2024-11-10 10:20:12,904:ERROR - Exception
+Traceback (most recent call last):
+  File "C:\Users\PS21\PycharmProjects\10.11.2024\10.11.2024.py", line 17, in <module>
+    print(10/0)
+ZeroDivisionError: division by zero
