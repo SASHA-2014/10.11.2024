@@ -1,4 +1,8 @@
-
+import logging
+logging.basicConfig(level=logging.DEBUG,
+                    filename='logs.log',
+                    filemode='w',
+                    format="%(levelname)s:%(asctime)s - %(message)s")
 class NameSurname:
     def __init__(self, name, surname):
         if(type(name) !=str):
@@ -9,13 +13,6 @@ class NameSurname:
         self.surname = surname
 class Student:
     student_amount = 0
-
-if('age <= 0'):
-    print("You have got a problem")
-else:
-    print("True")
-
-
     def __init__(self,name, surname, age,  height=160):
         self.heilght = height
         self.name = name
@@ -36,10 +33,17 @@ def Birthday(self):
     self.age += 1
     print(f'Happy Birthday to {self.ns.name}. Now you {self.age}!')
 
+
+
+logging.info(f'you started the program')
 try:
-  Andriy = Student( 'Andriy', "Dzekish",  13 )
+
+  firststudent = Student( 'Andriy', "Dzekish",  13 )
+  logging.info(f'Create new student{firststudent.ns.name} {firststudent.ns.surname}')
+  secondstudent = Student('Oleg', "Alibaba", 13)
 except Exception as error:
     print(error)
+    logging.error(error)
 
 print(f'befor creating Student object {Student.student_amount}')
 print()
@@ -52,13 +56,16 @@ def Birthday(self):
     self.age += 1
     print(f'Happy Birthday to {self.ns.name}. Now you {self.age}!')
 
-Andriy = Student( "Andriy", "Dzekish",  13 )
+firststudent = Student( "Andriy", "Dzekish",  13 )
+secondstudent = Student( "Oleg", "Alibaba",  13 )
 
 print(f'befor creating Student object {Student.student_amount}')
-print(Andriy.heilght, Andriy.name, Andriy.surname, Andriy.age)
+print(firststudent.heilght, firststudent.name, firststudent.surname, firststudent.age)
 print(Student.student_amount)
-print(Andriy.student_amount )
+print(firststudent.student_amount )
 #print(f'after creating Student object {Student.student_amount}').heilght, Andriy.name, Andriy.surname, Andriy.age))
 print(Student.student_amount)
-print(Andriy.student_amount )
+print(firststudent.student_amount )
 print(f'after creating Student object {Student.student_amount}')
+
+logging.info(f'you finished the program')
